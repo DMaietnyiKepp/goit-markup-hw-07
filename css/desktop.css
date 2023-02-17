@@ -1,0 +1,162 @@
+@media screen and (min-width: 1200px) {
+
+    .container {
+        max-width: 1158px;
+    }
+
+    .header-container {
+        padding-bottom: 24px;
+    }
+
+    .address-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    /*-------------- studio advantage ---------------*/
+
+    .studio-advantage {
+        padding-top: 120px;
+        padding-right: 156px;
+        padding-bottom: 0;
+        padding-left: 156px;
+    }
+
+    .studio-advatage-pics-list {
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .studio-advatage-pics-item {
+        width: calc((100% - 72px) / 4);
+        height: 112px;
+    }
+    
+    .studio-advatage-pic {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: #F4F4FD;
+    }
+
+    .studio-advantage-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    
+
+    .studio-item-title {
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .studio-item-text {
+        max-width: 264px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--SecondTextColor)
+    }
+
+    /*-------------- studio works --------------*/
+
+    .studio-works {
+        display: block;
+        margin-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .studio-works-title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+    
+    .studio-works-list {
+        margin-top: 72px;
+        display: flex;
+        gap: 24px;
+    }
+    
+    .works-list-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    /*--------------- studio team ---------------*/
+
+    .studio-team-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .studio-team-list-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    /*--------------- customers ---------------*/
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    /*--------------- footer ---------------*/
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 0;
+    }
+
+    .footer-left {
+        margin-right: 120px;
+        margin-bottom: 0;
+    }
+
+    .footer-items {
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .footer-soc {
+        margin-bottom: 0;
+    }
+
+    .footer-form {
+        width: 453px;
+        height: 80px;
+        margin-left: 80px;
+        display: flex;
+        align-items: flex-end;
+        gap: 24px;
+        position: relative;
+    }
+
+    .footer-label {
+        position: absolute;
+        top: 0;
+    }
+
+    .footer-input {
+        width: 264px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sub-btn {
+        margin: 0;
+    }
+}
