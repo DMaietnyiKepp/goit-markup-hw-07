@@ -93,6 +93,10 @@
         color: var(--HoverFocusColor);
     }
 
+    .mob-menu-btn {
+        display: none;
+    }
+
     /*--------------- hero --------------*/
 
     .hero {
@@ -225,5 +229,12 @@
 
     .portfolio-service-item:not(:last-child) {
         margin-bottom: 0;
+    }
+
+    /*--------------------- MODAL PAGE ---------------------*/
+
+    .modal {
+        width: 408px;
+        min-height: 586px;
     }
 }

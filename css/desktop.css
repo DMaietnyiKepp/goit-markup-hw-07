@@ -186,4 +186,10 @@
     .portfolio-service-item {
         width: calc((100% - 48px) / 3);
     }
+
+    /*--------------------- MODAL PAGE ---------------------*/
+
+    .modal {
+        min-height: 584px;
+    }
 }

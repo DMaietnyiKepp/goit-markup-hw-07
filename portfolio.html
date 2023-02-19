@@ -20,8 +20,8 @@
             <nav class="header-navigation">
                 <a href="" class="header-logo link"><span class="header-logo-word">Web</span>Studio</a>
                 <ul class="header-list list">
-                    <li class="header-list-item"><a class="header-link link" href="./index.html">Studio</a></li>
-                    <li class="header-list-item"><a class="header-link link current" href="./portfolio.html">Portfolio</a></li>
+                    <li class="header-list-item"><a class="header-link link current" href="./index.html">Studio</a></li>
+                    <li class="header-list-item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
                     <li class="header-list-item"><a class="header-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
@@ -31,6 +31,67 @@
                     <li class="address-list-item"><a class="address-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button data-menu-open type="button" class="mob-menu-btn">
+                <svg class="mob-menu-icon" width="32" height="32">
+                    <use href="./images/symbol-defs.svg#icon-mob-menu-lines"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="mob-container">
+                <div>
+                    <button type="button" class="mob-menu-close" data-menu-close>
+                        <svg class="mob-menu-close-icon" width="8" height="8">
+                            <use href="./images/symbol-defs.svg#icon-close-cross"></use>
+                        </svg>
+                    </button>
+                    <nav class="mob-menu-navigation">
+                        <ul class="mob-menu-list list">
+                            <li class="mob-menu-list-item"><a class="mob-menu-link link" href="./index.html">Studio</a></li>
+                            <li class="mob-menu-list-item"><a class="mob-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                            <li class="mob-menu-list-item"><a class="mob-menu-link link current-mob" href="">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <address class="mob-menu-address">
+                        <ul class="mob-menu-soc list">
+                            <li class="mob-menu-soc-list-item"><a class="mob-menu-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                            <li class="mob-menu-soc-list-item"><a class="mob-menu-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                    </address>
+                    <ul class="mob-menu-icon-list list">
+                        <li class="mob-menu-icon-list-item">
+                            <a href="" class="mob-menu-icon-link link">
+                                <svg class="mob-menu-icon" width="16" height="16">
+                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-icon-list-item">
+                            <a href="" class="mob-menu-icon-link link">
+                                <svg class="mob-menu-icon" width="16" height="16">
+                                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-icon-list-item">
+                            <a href="" class="mob-menu-icon-link link">
+                                <svg class="mob-menu-icon" width="16" height="16">
+                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-icon-list-item">
+                            <a href="" class="mob-menu-icon-link link">
+                                <svg class="mob-menu-icon" width="16" height="16">
+                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </di>
+            </div>
         </div>
     </header>
     <main>
@@ -351,5 +412,6 @@
             </form>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
