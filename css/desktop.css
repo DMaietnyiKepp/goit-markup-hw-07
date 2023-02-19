@@ -4,6 +4,10 @@
         max-width: 1158px;
     }
 
+    /*--------------------- STUDIO PAGE -----------------------*/
+
+    /*--------------- header ---------------*/
+
     .header-container {
         padding-bottom: 24px;
     }
@@ -162,5 +166,24 @@
 
     .sub-btn {
         margin: 0;
+    }
+
+    /*--------------------- PORTFOLIO PAGE ---------------------*/
+
+    .portfolio-info {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .portfolio-navigation-list {
+        margin-bottom: 72px;
+    }
+
+    .portfolio-service-list {
+        row-gap: 48px;
+    }
+
+    .portfolio-service-item {
+        width: calc((100% - 48px) / 3);
     }
 }

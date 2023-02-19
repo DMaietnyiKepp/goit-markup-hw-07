@@ -1,7 +1,16 @@
 @media screen and (min-width: 480px) {
 
-    .container {
-        max-width: 426px;
+    /*--------------- hero --------------*/
+
+    .hero {
+        background-image: var(--HeroGradient), url(../images/background-img/background-hero-tablet.jpg);
     }
 
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--HeroGradient) ,url(../images/background-img/background-hero-tablet-2x.jpg);
+        }
+}
 }

@@ -24,6 +24,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    width: 100%;
 }
 
 .list {
@@ -49,7 +50,7 @@ img {
 }
 
 .container {
-    width: 100%;
+    max-width: 426px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -107,10 +108,12 @@ img {
     display: none;
 }
 
+.mob-menu-btn {
+    margin-left: auto;
+    padding: 0;
+    border: none;
+}
 /*--------------- main ---------------*/
-
-/* .main {
-} */
 
 /*--------------- hero --------------*/
 
@@ -118,9 +121,18 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
     background: #2E2F42;
-    background-image: var(--HeroGradient) ,url(../images/background-hero-img.jpg);
+    background-image: var(--HeroGradient) ,url(../images/background-img/background-hero-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--HeroGradient) ,url(../images/background-img/background-hero-mobile-2x.jpg);
+        }
 }
 
 .hero-container {
@@ -232,9 +244,6 @@ img {
 .studio-team-list-item:not(:last-child) {
     margin-bottom: 72px;
 }
-
-/* .studio-team-member {
-} */
 
 .member-text {
     padding: 32px 16px;
@@ -427,6 +436,7 @@ img {
 }
 
 .footer-label {
+    max-width: 426px;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
@@ -485,15 +495,17 @@ img {
 /*--------------------- PORTFOLIO PAGE ---------------------*/
 
 .portfolio-info {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .portfolio-navigation-list {
-    margin-bottom: 72px;
+    margin-bottom: 48px;
     display: flex;
-    gap: 24px;
-    justify-content: center;
+    column-gap: 24px;
+    row-gap: 16px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 /* .portfolio-navigation-item {
@@ -529,19 +541,17 @@ img {
     min-width: 69px;
 }
 
-.portfolio-service-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-
-
 .portfolio-service-item {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 396px;
     outline: 1px solid #E7E9FC;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-service-item:not(:last-child) {
+    margin-bottom: 48px;
 }
 
 .portfolio-service-item:is(:hover, :focus) {

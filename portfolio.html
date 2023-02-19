@@ -7,6 +7,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mob.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -43,7 +46,21 @@
                 <ul class="portfolio-service-list list">
                         <li class="portfolio-service-item">
                             <div class="portfolio-item-wrap">
-                                <img src="./images/portfolio-img-1.jpg" alt="phone's apps" width="360" height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio-img/desktop/portfolio-1.jpg 1x, ./images/portfolio-img/desktop/portfolio-1-2x.jpg 2x"
+                                        media="(min-width: 1200px)"
+                                    />
+                                    <source
+                                        srcset="./images/portfolio-img/tablet/portfolio-tab-1.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-1-2x.jpg 2x"
+                                        media="(min-width: 768px)"
+                                    />
+                                    <source
+                                        srcset="./images/portfolio-img/mobile/portfolio-mob-1.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-1-2x.jpg 2x"
+                                        media="(max-width: 767px)"
+                                    />
+                                    <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-1.jpg" alt="phone's apps" width="396">
+                                </picture>
                                 <div class="portfolio-item-text-wrap">
                                     <p class="portfolio-item-text">
                                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -57,7 +74,21 @@
                         </li>
                         <li class="portfolio-service-item">
                             <div class="portfolio-item-wrap">
-                                <img src="./images/portfolio-img-2.jpg" alt="phone with payying app" width="360" height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio-img/desktop/portfolio-2.jpg 1x, ./images/portfolio-img/desktop/portfolio-2-2x.jpg 2x"
+                                        media="(min-width: 1200px)"
+                                    />
+                                    <source
+                                        srcset="./images/portfolio-img/tablet/portfolio-tab-2.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-2-2x.jpg 2x"
+                                        media="(min-width: 768px)"
+                                    />
+                                    <source
+                                        srcset="./images/portfolio-img/mobile/portfolio-mob-2.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-2-2x.jpg 2x"
+                                        media="(max-width: 767px)"
+                                    />
+                                    <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-2.jpg" alt="phone's apps" width="396">
+                                </picture>
                                 <div class="portfolio-item-text-wrap">
                                     <p class="portfolio-item-text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?
@@ -71,7 +102,21 @@
                         </li>
                         <li class="portfolio-service-item">
                             <div class="portfolio-item-wrap">
-                                <img src="./images/portfolio-img-3.jpg" alt="laptop" width="360" height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio-img/desktop/portfolio-3.jpg 1x, ./images/portfolio-img/desktop/portfolio-3-2x.jpg 2x"
+                                        media="(min-width: 1200px)"
+                                    />
+                                    <source
+                                        srcset="./images/portfolio-img/tablet/portfolio-tab-3.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-3-2x.jpg 2x"
+                                        media="(min-width: 768px)"
+                                    />
+                                    <source
+                                        srcset="./images/portfolio-img/mobile/portfolio-mob-3.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-3-2x.jpg 2x"
+                                        media="(max-width: 767px)"
+                                    />
+                                    <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-3.jpg" alt="phone's apps" width="396">
+                                </picture>
                                 <div class="portfolio-item-text-wrap">
                                     <p class="portfolio-item-text">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?
@@ -85,7 +130,21 @@
                         </li>
                     <li class="portfolio-service-item">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/portfolio-img-4.jpg" alt="car inside" width="360" height="300">
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-img/desktop/portfolio-4.jpg 1x, ./images/portfolio-img/desktop/portfolio-4-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/tablet/portfolio-tab-4.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-4-2x.jpg 2x"
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/mobile/portfolio-mob-4.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-4-2x.jpg 2x"
+                                    media="(max-width: 767px)"
+                                />
+                                <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-4.jpg" alt="phone's apps" width="396">
+                            </picture>
                             <div class="portfolio-item-text-wrap">
                                 <p class="portfolio-item-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?
@@ -99,7 +158,21 @@
                     </li>
                     <li class="portfolio-service-item">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/portfolio-img-5.jpg" alt="phone's screen" width="360" height="300">
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-img/desktop/portfolio-5.jpg 1x, ./images/portfolio-img/desktop/portfolio-5-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/tablet/portfolio-tab-5.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-5-2x.jpg 2x"
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/mobile/portfolio-mob-5.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-5-2x.jpg 2x"
+                                    media="(max-width: 767px)"
+                                />
+                                <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-5.jpg" alt="phone's apps" width="396">
+                            </picture>
                             <div class="portfolio-item-text-wrap">
                                 <p class="portfolio-item-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?
@@ -113,7 +186,21 @@
                     </li>
                     <li class="portfolio-service-item">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/portfolio-img-6.jpg" alt="smilling girl" width="360" height="300">
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-img/desktop/portfolio-6.jpg 1x, ./images/portfolio-img/desktop/portfolio-6-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/tablet/portfolio-tab-6.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-6-2x.jpg 2x"
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/mobile/portfolio-mob-6.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-6-2x.jpg 2x"
+                                    media="(max-width: 767px)"
+                                />
+                                <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-6.jpg" alt="phone's apps" width="396">
+                            </picture>
                             <div class="portfolio-item-text-wrap">
                                 <p class="portfolio-item-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?
@@ -127,7 +214,21 @@
                     </li>
                     <li class="portfolio-service-item">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/portfolio-img-7.jpg" alt="instagram stories" width="360" height="300">
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-img/desktop/portfolio-7.jpg 1x, ./images/portfolio-img/desktop/portfolio-7-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/tablet/portfolio-tab-7.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-7-2x.jpg 2x"
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/mobile/portfolio-mob-7.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-7-2x.jpg 2x"
+                                    media="(max-width: 767px)"
+                                />
+                                <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-7.jpg" alt="phone's apps" width="396">
+                            </picture>
                             <div class="portfolio-item-text-wrap">
                                 <p class="portfolio-item-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?
@@ -141,7 +242,21 @@
                     </li>
                     <li class="portfolio-service-item">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/portfolio-img-8.jpg" alt="woman carring bag with fruit" width="360" height="300">
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-img/desktop/portfolio-8.jpg 1x, ./images/portfolio-img/desktop/portfolio-8-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/tablet/portfolio-tab-8.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-8-2x.jpg 2x"
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/mobile/portfolio-mob-8.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-8-2x.jpg 2x"
+                                    media="(max-width: 767px)"
+                                />
+                                <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-8.jpg" alt="phone's apps" width="396">
+                            </picture>
                             <div class="portfolio-item-text-wrap">
                                 <p class="portfolio-item-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?
@@ -155,7 +270,21 @@
                     </li>
                     <li class="portfolio-service-item">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/portfolio-img-9.jpg" alt="coffee" width="360" height="300">
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-img/desktop/portfolio-9.jpg 1x, ./images/portfolio-img/desktop/portfolio-9-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/tablet/portfolio-tab-9.jpg 1x, ./images/portfolio-img/tablet/portfolio-tab-9-2x.jpg 2x"
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="./images/portfolio-img/mobile/portfolio-mob-9.jpg 1x, ./images/portfolio-img/mobile/portfolio-mob-9-2x.jpg 2x"
+                                    media="(max-width: 767px)"
+                                />
+                                <img class="portfolio-img" src="./images/portfolio-img/desktop/portfolio-9.jpg" alt="phone's apps" width="396">
+                            </picture>
                             <div class="portfolio-item-text-wrap">
                                 <p class="portfolio-item-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas vero tempore minus similique, consectetur atque itaque aliquam nihil mollitia distinctio quo nesciunt cupiditate natus quae blanditiis in laudantium odio?

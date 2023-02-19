@@ -4,6 +4,8 @@
         max-width: 766px;
     }
 
+    /*--------------------- STUDIO PAGE -----------------------*/
+
     /*--------------- header ---------------*/
 
     .header-container {
@@ -37,9 +39,6 @@
         gap: 40px;
     }
     
-    /* .header-list-item {
-    } */
-    
     .header-link {
         font-weight: 500;
         font-size: 16px;
@@ -70,9 +69,6 @@
     
     }
     
-    /* .header-address {
-    } */
-    
     .address-list {
         font-size: 12px;
         line-height: 1.3;
@@ -81,9 +77,6 @@
         flex-wrap: wrap;
         gap: 4px;
     }
-    
-    /* .address-list-item {
-    } */
     
     .address-mail {
         color: var(--SecondTextColor);
@@ -101,6 +94,18 @@
     }
 
     /*--------------- hero --------------*/
+
+    .hero {
+        background-image: var(--HeroGradient), url(../images/background-img/background-hero-desktop.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--HeroGradient) ,url(../images/background-img/background-hero-desktop-2x.jpg);
+        }
+}
 
     .hero-container {
         display: flex;
@@ -155,9 +160,6 @@
 
     /*--------------- footer ---------------*/
 
-    /* .footer {
-    } */
-
     .footer-items {
         padding-left: 108px;
         display: flex;
@@ -192,5 +194,36 @@
 
     .sub-btn {
         margin: 0;
+    }
+
+    /*--------------------- PORTFOLIO PAGE ---------------------*/
+
+    .portfolio-info {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .portfolio-navigation-list {
+        margin-bottom: 64px;
+        gap: 24px;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .portfolio-service-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .portfolio-service-item {
+        margin-right: 0;
+        margin-left: 0;
+        width: calc((100% - 24px) / 2);
+    }
+
+    .portfolio-service-item:not(:last-child) {
+        margin-bottom: 0;
     }
 }
