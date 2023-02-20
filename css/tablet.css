@@ -100,6 +100,7 @@
     /*--------------- hero --------------*/
 
     .hero {
+        padding-bottom: 108px;
         background-image: var(--HeroGradient), url(../images/background-img/background-hero-desktop.jpg);
     }
 

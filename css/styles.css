@@ -204,7 +204,7 @@ img {
 .mob-menu-icon-list {
     margin-top: 12px;
     display: flex;
-    gap: 27px;
+    gap: 56px;
 }
 
 .mob-menu-icon-list-item {
@@ -227,8 +227,8 @@ img {
 /*--------------- hero --------------*/
 
 .hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     background: #2E2F42;
     background-image: var(--HeroGradient) ,url(../images/background-img/background-hero-mobile.jpg);
     background-repeat: no-repeat;
@@ -314,6 +314,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: left;
     color: var(--SecondTextColor)
 }
 

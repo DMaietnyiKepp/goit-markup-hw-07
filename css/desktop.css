@@ -17,6 +17,8 @@
     }
 
     .address-list {
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         flex-wrap: nowrap;
         gap: 24px;
@@ -24,6 +26,13 @@
 
     .mob-menu-btn {
         display: none;
+    }
+
+    /*--------------- hero --------------*/
+
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
     }
 
     /*-------------- studio advantage ---------------*/
