@@ -934,3 +934,29 @@ img {
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.current-restaurant:active .current-hotel {
+    display: none;
+}
+
+.current-restaurant:active .current-room {
+    display: none;
+}
+
+
+
+
+
